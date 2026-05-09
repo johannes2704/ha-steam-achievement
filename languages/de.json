@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Steam Achievement Sensor einrichten",
+        "description": "Steam API Key: {api_key_url}\nSteam ID (64-bit): {steam_id_url}",
+        "data": {
+          "api_key": "Steam API Key",
+          "steam_id": "Steam ID (64-bit)",
+          "app_id": "App-ID (optional, leer lassen für alle Spiele)",
+          "name": "Name des Sensors"
+        }
+      }
+    },
+    "error": {
+      "invalid_api_key": "Ungültiger API Key. Bitte prüfe deinen Steam API Key.",
+      "invalid_steam_id": "Ungültige Steam ID. Bitte eine 17-stellige Steam-ID64 eingeben.",
+      "cannot_connect": "Verbindung zu Steam fehlgeschlagen. Bitte Internetverbindung prüfen.",
+      "already_configured": "Diese Steam ID ist bereits eingerichtet."
+    },
+    "abort": {
+      "already_configured": "Diese Steam ID ist bereits konfiguriert."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Steam Achievement Sensor anpassen",
+        "data": {
+          "api_key": "Steam API Key",
+          "steam_id": "Steam ID (64-bit)",
+          "app_id": "App-ID (optional, leer lassen für alle Spiele)"
+        }
+      }
+    },
+    "error": {
+      "invalid_api_key": "Ungültiger API Key.",
+      "invalid_steam_id": "Ungültige Steam ID.",
+      "cannot_connect": "Verbindung zu Steam fehlgeschlagen."
+    }
+  }
+}
