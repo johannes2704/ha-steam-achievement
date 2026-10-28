@@ -1,0 +1,12 @@
+{
+  "domain": "steam_achievement",
+  "name": "Steam Achievement Sensor",
+  "codeowners": ["@johannes2704"],
+  "config_flow": true,
+  "documentation": "https://github.com/johannes2704/ha-steam-achievement",
+  "issue_tracker": "https://github.com/johannes2704/ha-steam-achievement/issues",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "2.1.0"
+}

@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Steam Achievement Sensor",
+        "description": "API key: https://steamcommunity.com/dev/apikey – Steam ID (64-bit): https://steamid.io",
+        "data": {
+          "api_key": "Steam API key",
+          "steam_id": "Steam ID (64-bit)",
+          "app_id": "App ID (optional, empty = all recently played games)",
+          "name": "Name"
+        }
+      }
+    },
+    "error": {
+      "invalid_api_key": "Steam rejected the API key.",
+      "invalid_steam_id": "No profile found for this Steam ID.",
+      "cannot_connect": "Cannot connect to Steam.",
+      "profile_private": "The Steam profile is not public. Set the profile and 'Game details' to Public."
+    },
+    "abort": {
+      "already_configured": "This Steam ID is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Steam Achievement Sensor",
+        "data": {
+          "api_key": "Steam API key",
+          "steam_id": "Steam ID (64-bit)",
+          "app_id": "App ID (optional)"
+        }
+      }
+    },
+    "error": {
+      "invalid_api_key": "Steam rejected the API key.",
+      "invalid_steam_id": "No profile found for this Steam ID.",
+      "cannot_connect": "Cannot connect to Steam.",
+      "profile_private": "The Steam profile is not public. Set the profile and 'Game details' to Public."
+    }
+  }
+}
